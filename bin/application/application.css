@@ -1,0 +1,131 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.panel-jugabilidad {
+	-fx-background-color: rgb(59,107,73);
+}
+
+
+.dialog-pane .label {
+  -fx-background-color: rgb(154, 154, 154);
+  -fx-text-fill:white;
+  -fx-font-family: 'Pristina';
+  -fx-font-size: 18px;
+  
+}
+
+.dialog-pane {
+  -fx-background-color: rgb(154, 154, 154);
+  
+}
+
+.botonletra1 {
+	-fx-font-family: "Pt Sans";
+    -fx-font-size: 18px;
+    -fx-text-fill:  blue ;
+    -fx-font-weight: bold;
+	-fx-background-color: rgb(192,192,192);
+}
+
+.botonletra2 {
+	-fx-font-family: "Pt Sans";
+    -fx-font-size: 18px;
+    -fx-text-fill:  green ;
+    -fx-font-weight: bold;
+	-fx-background-color: rgb(192,192,192);
+}
+
+.botonletra3 {
+	-fx-font-family: "Pt Sans";
+    -fx-font-size: 18px;
+    -fx-text-fill:  red ;
+    -fx-font-weight: bold;
+	-fx-background-color: rgb(192,192,192);
+}
+
+.botonletra4 {
+	-fx-font-family: "Pt Sans";
+    -fx-font-size: 18px;
+    -fx-text-fill:  purple ;
+    -fx-font-weight: bold;
+	-fx-background-color: rgb(192,192,192);
+}
+
+.botonletra5 {
+	-fx-font-family: "Pt Sans";
+    -fx-font-size: 18px;
+    -fx-text-fill:  maroon ;
+    -fx-font-weight: bold;
+	-fx-background-color: rgb(192,192,192);
+}
+
+.botonletra6 {
+	-fx-font-family: "Pt Sans";
+    -fx-font-size: 18px;
+    -fx-text-fill:  turquoise ;
+    -fx-font-weight: bold;
+	-fx-background-color: rgb(192,192,192);
+}
+
+.botonletra7 {
+	-fx-font-family: "Pt Sans";
+    -fx-font-size: 18px;
+    -fx-text-fill:  black ;
+    -fx-font-weight: bold;
+	-fx-background-color: rgb(192,192,192);
+}
+
+.botonletra8 {
+	-fx-font-family: "Pt Sans";
+    -fx-font-size: 18px;
+    -fx-text-fill:  gray ;
+    -fx-font-weight: bold;
+	-fx-background-color: rgb(192,192,192);
+}
+
+.botonBombas {
+	-fx-font-family: "Pt Sans";
+    -fx-font-size: 18px;
+    -fx-text-fill:  rgb(0,0,0) ;
+    -fx-font-weight: bold;
+	-fx-background-color: rgb(255,255,255);
+}
+
+.exploto {
+	-fx-font-family: "Pt Sans";
+    -fx-font-size: 18px;
+    -fx-text-fill:  red ;
+    -fx-font-weight: bold;
+	-fx-background-color: rgb(156,156,156);
+}
+
+.botonletraguion {
+	-fx-font-family: "Pt Sans";
+    -fx-font-size: 18px;
+    -fx-text-fill:  rgb(192,192,192) ;
+    -fx-font-weight: bold;
+	-fx-background-color: rgb(192,192,192);
+}
+
+.botonletraV {
+	-fx-font-family: "Pt Sans";
+    -fx-font-size: 18px;
+    -fx-text-fill:  rgb(255,255,255) ;
+    -fx-font-weight: bold;
+	-fx-background-color: rgb(156,156,156);
+}
+
+.botonletraX {
+	-fx-font-family: "Pt Sans";
+    -fx-font-size: 18px;
+    -fx-text-fill:  rgb(0,0,0) ;
+    -fx-font-weight: bold;
+	-fx-background-color: rgb(192,192,192);
+}
+
+.perder {
+	-fx-font-family: "Pt Sans";
+    -fx-font-size: 18px;
+    -fx-text-fill:  rgb(0,0,0) ;
+    -fx-font-weight: bold;
+	-fx-background-color: red;
+}

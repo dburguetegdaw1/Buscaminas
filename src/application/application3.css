@@ -1,0 +1,14 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+
+.dialog-pane .label {
+  -fx-background-color: rgb(38, 255, 44);
+  -fx-text-fill: rgb(121, 121, 121);
+  -fx-font-family: 'Edwardian Script ITC';
+  -fx-font-size: 30px;
+  
+}
+
+.dialog-pane {
+	-fx-background-color: rgb(38, 255, 44);
+}
