@@ -158,22 +158,6 @@ public class Tablero
         }
     }
     
-    public boolean terminarJuego(){
-        int casillasSinDescubrir = 0;
-        boolean terminar = false;
-        for(int i = 0; i < casillaDescubierta.length; i++){
-            for(int j = 0; j < casillaDescubierta[i].length; j++){
-                if(!casillaDescubierta[i][j]){
-                    casillasSinDescubrir++;
-                }
-            }
-        }
-        if(casillasSinDescubrir == bombas){
-            terminar = true;
-        }
-        return terminar;
-    }
-    
     public void descubrirCasilla(int y, int x){
         if(!casillaDescubierta[y][x]){
             casillaDescubierta[y][x] = true;

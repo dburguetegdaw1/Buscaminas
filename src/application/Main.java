@@ -248,7 +248,6 @@ public class Main extends Application {
 					}
 					else if (e.isPrimaryButtonDown()) {
 						btnClick += e.getClickCount();
-						System.out.println((btnClick/(Ancho*Largo)));
 						btn.setOnAction(f -> descubrir(k, l));
 					}
 				});
@@ -280,7 +279,6 @@ public class Main extends Application {
 
 	@SuppressWarnings("static-access")
 	private Button[][] descubrir(int i, int j) {
-		System.out.println(btnClick);
 		botones[i][j].setText("-");
 		botones[i][j].setOpacity(0);
 		botones[i][j].setDisable(true);
